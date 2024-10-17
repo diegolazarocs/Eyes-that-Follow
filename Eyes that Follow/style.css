@@ -3,10 +3,18 @@ body {
   margin: 0;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: blueviolet;
+  background-color: rgb(250, 151, 230);
+}
+h1{
+  font-size: 3rem;
+  font-family: sans-serif;
+  background-color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
 }
 .emoji-face {
   position: relative;
@@ -24,7 +32,7 @@ body {
   content: "";
   top: 180px;
   position: absolute;
-  width: 150px;
+  width: 210px;
   height: 70px;
   background: crimson;
   border-bottom-left-radius: 70px;
